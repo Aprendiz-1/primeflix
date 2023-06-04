@@ -1,0 +1,73 @@
+.filme-info {
+    margin: 0 auto;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    padding: 0 8px;
+}
+
+.filme-info h1 {
+    margin: 8px 0;
+}
+
+.filme-info img {
+    border-radius: 8px;
+    width: 800px;
+    max-width: 100%;
+    max-height: 340px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.filme-info .top-area {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #222;
+}
+
+.filme-info .top-area strong {
+    font-size: 14px;
+    background-color: #116feb;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 30px;
+}
+
+.filme-info span {
+    margin: 8px 0;
+}
+
+.area-button button {
+    margin: 14px 12px 30px 0;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.area-button button:hover {
+    background-color: rgb(9, 9, 66);
+    color: #fff;
+}
+
+.save-button {
+    background-color: #ddd;
+    color: #222;
+}
+
+.trailer-button {
+    background-color: #116feb;
+}
+
+.trailer-button a {
+    text-decoration: none;
+    color: #fff;
+}
